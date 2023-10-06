@@ -1,0 +1,162 @@
+.filters {
+    height: 50%;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter {
+    background-color: pink;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.clear-filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clear-filters button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.clear-filters button:hover {
+    font-size: 25px;
+}
+
+.sort-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.sort-by .sorting-category {
+    display: flex;
+    align-items: center;
+}
+
+.sort-by select {
+    background-color: rgba(255, 255, 255, 0.675);
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sort-by input {
+    cursor: pointer;
+}
+
+.sort-by .asc-desc {
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.results-per-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.results-per-page p {
+    font-size: 25px;
+}
+
+.age-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-filters input {
+    background-color: rgba(255, 255, 255, 0.675);
+    border: none;
+    font-size: 25px;
+}
+
+.age-filters button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.age-filters button:hover {
+    font-size: 18px;
+}
+
+.zip-codes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zip-code-filter {
+    display: block;
+    width: 60%;
+}
+
+.zip-code-filter input {
+    background-color: rgba(255, 255, 255, 0.675);
+    border: none;
+    font-size: 20px;
+    width: 90%;
+}
+
+.zip-code-buttons button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.zip-code-buttons button:hover {
+    font-size: 15px;
+}
+
+.zip-codes-list {
+    background-color: pink;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 60px;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.zip-code-container {
+    background-color: pink;
+    border: solid 2px white;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.zip-code-container:hover {
+    opacity: .5;
+    text-decoration: line-through;
+}

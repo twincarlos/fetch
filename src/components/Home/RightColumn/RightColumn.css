@@ -1,0 +1,149 @@
+.right-column {
+    width: 75%;
+    height: 100dvh;
+    text-align: center;
+}
+
+.right-column .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    margin: 0 80px;
+    padding: 0 50px;
+    border-radius: 10px;
+    border: 5px solid white;
+    height: 50px;
+}
+
+.right-column .logout-button {
+    transition: .5s;
+}
+
+.right-column .logout-button:hover {
+    font-size: 15px;
+}
+
+.right-column .header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-column .header span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-column .next-back-buttons span {
+    font-size: 20px;
+    transition: font-size .5s;
+}
+
+.right-column .next-back-buttons span:hover {
+    font-size: 30px;
+}
+
+.right-column .favorites-button {
+    font-size: 17px;
+    transition: font-size .5s;
+}
+
+.right-column .favorites-button:hover {
+    font-size: 25px;
+}
+
+.dogs-list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 90%;
+    overflow-y: scroll;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dog-container {
+    width: 200px;
+    height: 300px;
+    line-height: 0;
+    background-color: rgba(255, 230, 234, 0.663);
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-container.favorite {
+    background-color: pink;
+    border: 5px solid rgb(255, 110, 135);
+}
+
+.dog-container img {
+    width: 80%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 10px;
+    border: solid 1px black;
+    cursor: pointer;
+    transition: border .5s;
+}
+
+.dog-container img:hover {
+    border: solid 5px rgb(255, 83, 209);
+}
+
+.dog-container span {
+    display: flex;
+    gap: 10px;
+    margin-bottom: -10px;
+}
+
+.dog-container span p:first-child {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.favorites {
+    max-width: 70vw;
+    padding: 20px;
+    background-color: pink;
+    border: 5px solid rgb(255, 3, 125);
+}
+
+.favorite-dogs-list {
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+}
+
+.generate-match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.generate-match button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-top: 20px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.generate-match button:hover {
+    font-size: 30px;
+    color: rgb(255, 3, 125);
+}
+
+.empty-list-warning {
+    text-align: center;
+}
