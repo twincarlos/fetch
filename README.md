@@ -1,6 +1,7 @@
 # Fetch
 
-In this project, users will be able to search through a wide range of dogs fed by a server. Users will be able to filter through a number of filters such as their name, breed, age, and zipcode.
+In this project, users will be able to search through a wide range of dogs fed by a server. Users will be able to filter through a number of filters such as their name, breed, age, and zipcode.\
+You can access this project live [here](https://fetch.onrender.com).
 
 ## To run this project locally
 
